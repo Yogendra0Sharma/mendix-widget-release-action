@@ -1,0 +1,12 @@
+name: "Wendix Widget MPK Release Publisher"
+branding:
+  icon: "package"
+  color: "red"
+description: "Release Mendix Widget mpk on Github"
+author: "Yogendra0Sharma"
+inputs:
+  GITHUB_TOKEN:
+    description: "Github secret token to allow automated publishing of MPK to release."
+runs:
+  using: "docker"
+  image: "Dockerfile"
